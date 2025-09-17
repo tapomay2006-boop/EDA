@@ -98,8 +98,7 @@ sns.displot(df.Embarked, bins=20); plt.show()
 sns.pairplot(df)
 plt.show()
 
-# === CORRELATION + HEATMAP ===
-print(df.corr())
+# === CORRELATION  HEATMAP ===
 plt.figure(figsize=(12, 7))
 sns.heatmap(df.corr(), annot=True, fmt='0.2f', cmap='Blues')
 plt.show()
